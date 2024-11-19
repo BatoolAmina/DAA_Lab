@@ -31,3 +31,9 @@ int main() {
 
     return 0;
 }
+
+Output:
+Enter the text: programmingisfun
+Enter the pattern: ming
+
+Pattern found at index 7
