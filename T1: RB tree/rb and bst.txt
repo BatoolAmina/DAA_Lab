@@ -1,0 +1,21 @@
+Ques: Why red black tree is better than binary tree? what are the properties of r b tree.
+
+Why Red-Black Tree is Better Than a Binary Search Tree (BST):
+
+Balanced Structure:
+A Red-Black Tree is a self-balancing binary search tree. While a regular BST can degrade into a linked list in the worst case (e.g., when inserting in sorted order), a Red-Black Tree ensures that the tree remains balanced, providing better performance for insertion, deletion, and search operations.
+
+Guaranteed Logarithmic Height:
+In a Red-Black Tree, the height of the tree is guaranteed to be log(n), where n is the number of nodes. In contrast, a regular BST could have a height of n in the worst case, leading to inefficient operations.
+
+Efficient Operations:
+Red-Black Trees offer O(log n) time complexity for search, insertion, and deletion operations due to their balanced structure. This ensures consistent and predictable performance, even with a large number of nodes.
+
+
+Properties of a Red-Black Tree:
+Each node is either red or black.
+The root is always black.
+Red nodes cannot have red children (i.e., no two red nodes can be adjacent).
+Every path from a node to its descendant NULL nodes must have the same number of black nodes (known as the black-height property).
+Newly inserted nodes are always red initially.
+The black-height of a node is the number of black nodes on the path from that node to the leaves.
