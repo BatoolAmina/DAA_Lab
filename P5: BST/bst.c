@@ -45,3 +45,12 @@ int main() {
     printf("\n");
     return 0;
 }
+
+
+
+Output:
+
+Enter the number of elements to insert in the BST: 5
+Enter the elements:
+50 30 20 40 70
+Inorder Traversal of the BST: 20 30 40 50 70
