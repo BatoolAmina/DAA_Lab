@@ -1,0 +1,31 @@
+Prim's Algorithm is a greedy algorithm used to find the Minimum Spanning Tree (MST) of a weighted, connected graph. The goal is to connect all the vertices in the graph with the minimum possible total edge weight while ensuring no cycles are formed.
+
+Steps of Prim's Algorithm:
+
+Initialization:
+Start from any arbitrary vertex and consider it as part of the MST.
+Maintain a set of vertices included in the MST and the vertices not yet included.
+
+Selection of the Minimum Edge:
+From the set of vertices already in the MST, choose the minimum weight edge that connects a vertex in the MST to a vertex outside the MST.
+
+Repeat:
+Add the selected vertex to the MST and repeat the process until all vertices are included in the MST.
+Termination:
+When all vertices are included in the MST, the algorithm terminates, and the MST is complete.
+
+Key Points:
+Greedy Approach: Prim’s algorithm builds the MST by selecting the minimum weight edge at each step.
+Time Complexity:
+Using an adjacency matrix: O(V²).
+Using a min-heap (priority queue): O(E log V), where V is the number of vertices and E is the number of edges.
+Works for both dense and sparse graphs.
+No cycles are formed, ensuring a valid tree structure.
+
+Example:
+For a graph with vertices A, B, C, D, and edges with weights, Prim’s algorithm would start at any vertex, say A, and then select the minimum edge, like AB or AC, and continue until all vertices are included.
+
+Applications:
+Used in network design (e.g., designing least-cost communication networks).
+Useful in cluster analysis and graph connectivity problems.
+Prim's algorithm ensures that the tree constructed is the minimum spanning tree, with the smallest possible edge weights connecting all vertices.
