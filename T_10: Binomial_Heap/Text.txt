@@ -1,0 +1,28 @@
+A Binomial Heap is a collection of binomial trees that satisfies the min-heap property (the key of a parent node is less than or equal to the keys of its children). It is used in applications requiring efficient merging of heaps.
+What is a Binomial Tree? 
+A Binomial Tree of order 0 has 1 node. A Binomial Tree of order k can be constructed by taking two binomial trees of order k-1 and making one the leftmost child of the other. 
+A Binomial Tree of order k the has following properties:
+It has exactly 2k nodes. 
+It has depth as k. 
+There are exactly kaiCi nodes at depth i for i = 0, 1, . . . , k. 
+The root has degree k and children of the root are themselves Binomial Trees with order k-1, k-2,.. 0 from left to right. 
+
+Operations on Binomial Heap
+The operations that can be performed on binomial heap are listed as follows -
+Creating a binomial heap
+Finding the minimum key
+Union or merging of two binomial heaps
+Inserting a node
+Extracting minimum key
+Decreasing a key
+Deleting a node
+
+Applications:
+Priority Queues: Tasks requiring fast merging of priority queues, such as job scheduling and event simulation.
+Graph Algorithms: Used in algorithms like Prim's MST and Dijkstra's shortest path.
+
+Advantages:
+Efficient merge operation (O(logn)), making it suitable for dynamic scenarios with frequent heap combinations.
+
+Disadvantages:
+More complex structure and operations compared to simpler heaps like binary heaps.
