@@ -47,3 +47,17 @@ int main() {
     printf("Maximum value in the knapsack: %.2f\n", maxValue);
     return 0;
 }
+
+
+Output:
+Enter the number of items: 3
+Enter the weight and value of each item:
+Item 1 - Weight: 10
+Item 1 - Value: 60
+Item 2 - Weight: 20
+Item 2 - Value: 100
+Item 3 - Weight: 30
+Item 3 - Value: 120
+Enter the capacity of the knapsack: 50
+    
+Maximum value in the knapsack: 240.00
