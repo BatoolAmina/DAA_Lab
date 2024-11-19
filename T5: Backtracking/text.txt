@@ -1,0 +1,30 @@
+Backtracking is an algorithmic technique used for solving problems incrementally by trying possible solutions and backtracking when a solution path is not feasible. It is often used for problems that involve searching through a large set of possibilities, such as combinatorial problems.
+
+Key Concepts:
+
+Incremental Search:
+The algorithm builds the solution step by step, considering one possibility at a time.
+
+Exploration of Possibilities:
+If a partial solution seems promising, it proceeds to the next step.
+If a partial solution violates problem constraints or leads to an unworkable state, the algorithm backtracks and tries the next available option.
+
+Depth-First Search (DFS):
+Backtracking is often implemented using DFS, where the algorithm explores one branch of the solution space before moving to the next.
+
+Pruning:
+Backtracking prunes the search space by abandoning paths that do not lead to a solution, thus reducing unnecessary computation.
+
+Steps of Backtracking:
+Choose: Select the first choice from the available options.
+Explore: Move to the next step based on the current choice.
+Check: If the current solution is valid, continue exploring.
+Backtrack: If the solution is invalid or cannot lead to an optimal solution, undo the current choice and try the next one.
+
+Advantages:
+Optimal: Can find an optimal solution when applicable.
+General Approach: Useful for many combinatorial problems where exhaustive search is required.
+
+Disadvantages:
+Inefficiency: Can be slow, as it may explore all possible solutions, especially for large search spaces.
+Memory Intensive: Storing partial solutions can require significant memory.
