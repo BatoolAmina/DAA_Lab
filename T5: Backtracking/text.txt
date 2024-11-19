@@ -1,3 +1,5 @@
+Ques: Write a short note on backtracking?
+
 Backtracking is an algorithmic technique used for solving problems incrementally by trying possible solutions and backtracking when a solution path is not feasible. It is often used for problems that involve searching through a large set of possibilities, such as combinatorial problems.
 
 Key Concepts:
