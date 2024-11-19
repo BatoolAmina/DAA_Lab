@@ -1,3 +1,5 @@
+Ques: Write short note on Prims algorithm.
+
 Prim's Algorithm is a greedy algorithm used to find the Minimum Spanning Tree (MST) of a weighted, connected graph. The goal is to connect all the vertices in the graph with the minimum possible total edge weight while ensuring no cycles are formed.
 
 Steps of Prim's Algorithm:
