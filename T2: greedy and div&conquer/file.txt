@@ -1,0 +1,23 @@
+Greedy Method:
+Approach:
+Makes the locally optimal choice at each step, with the hope that these local choices will lead to a globally optimal solution.
+Problem Types:
+Best suited for optimization problems where each decision is made based on immediate benefit.
+Solution:
+A single-step decision is made based on the current state, without considering the future consequences.
+Example Problems:
+Fractional Knapsack, Huffman Coding, Activity Selection.
+Characteristics:
+Fast and simple but doesn't always guarantee the optimal solution for all problems (though it does for some).
+
+Divide and Conquer Method:
+Approach:
+Breaks the problem into smaller subproblems, solves each subproblem recursively, and then combines the results to get the solution.
+Problem Types:
+Effective for problems that can be broken down into smaller, independent subproblems.
+Solution:
+Recursive approach, where the problem is divided, solved, and merged.
+Example Problems:
+Merge Sort, Quick Sort, Binary Search, Matrix Multiplication.
+Characteristics:
+Optimal solution is often guaranteed, but requires more complexity and time compared to greedy methods.
