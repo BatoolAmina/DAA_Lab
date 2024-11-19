@@ -1,3 +1,7 @@
+Ques: Differentiate between different methods of algorithm 
+greedy method 
+divide and conquer method
+
 Greedy Method:
 Approach:
 Makes the locally optimal choice at each step, with the hope that these local choices will lead to a globally optimal solution.
