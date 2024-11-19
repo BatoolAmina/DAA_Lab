@@ -1,3 +1,5 @@
+Ques: What is knapsack problem? Why 0/1 knapsack problem cannot be solved greedy method.
+
 Knapsack Problem:
 The Knapsack Problem is a classical optimization problem in combinatorial mathematics. The objective is to select a subset of items with given weights and values to include in a knapsack of fixed capacity, such that the total value of the selected items is maximized, without exceeding the capacity of the knapsack.
 
