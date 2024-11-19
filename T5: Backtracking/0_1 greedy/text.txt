@@ -1,0 +1,27 @@
+Knapsack Problem:
+The Knapsack Problem is a classical optimization problem in combinatorial mathematics. The objective is to select a subset of items with given weights and values to include in a knapsack of fixed capacity, such that the total value of the selected items is maximized, without exceeding the capacity of the knapsack.
+
+There are two main types of Knapsack problems:
+0/1 Knapsack Problem:
+Each item can either be included in the knapsack (1) or excluded (0), i.e., binary choices.
+The goal is to maximize the total value of selected items without exceeding the weight capacity of the knapsack.
+
+Fractional Knapsack Problem:
+Items can be broken into smaller parts, and fractions of an item can be taken. It allows taking a fraction of the item’s weight and value.
+The problem can be solved using a greedy algorithm.
+
+Why 0/1 Knapsack Cannot Be Solved by Greedy Method:
+The Greedy Method works by making a series of local optimum choices (choosing the best option available at each step). However, this approach does not always lead to an optimal solution in the case of the 0/1 Knapsack Problem.
+
+Greedy Approach Assumes Immediate Benefit:
+In the greedy approach, we might select an item based on its value-to-weight ratio (the best "bang for the buck"). However, this does not always lead to the global optimum because choosing the most valuable item or the one with the best ratio first can prevent us from choosing a combination of other items that would have given a better total value while respecting the weight limit.
+
+Example:
+Consider two items:
+Item 1: Value = 60, Weight = 10 (Value-to-weight ratio = 6)
+Item 2: Value = 100, Weight = 20 (Value-to-weight ratio = 5)
+Knapsack Capacity = 30
+The greedy method would choose Item 1 first (since it has a higher value-to-weight ratio). However, this leaves no capacity for Item 2. The optimal solution, however, is to take both items, which gives a total value of 160.
+
+Greedy Does Not Consider Future Consequences:
+The greedy method makes decisions without considering how the current decision will affect future choices. In 0/1 Knapsack, future choices might offer better combinations of items that the greedy approach would miss.
