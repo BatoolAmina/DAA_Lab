@@ -1,0 +1,32 @@
+Ques: What is complexity? Why asymptotic notation is used to define complexity of an algorithm.
+
+What is Complexity?
+Complexity in the context of algorithms refers to the measurement of the resources an algorithm uses as a function of the size of its input. The two most common types of complexity are:
+
+Time Complexity:
+The amount of time an algorithm takes to complete as the input size increases.
+
+Space Complexity:
+The amount of memory (space) an algorithm uses as the input size increases.
+
+Purpose of Complexity Analysis:
+To determine how efficiently an algorithm performs.
+To compare different algorithms for the same task.
+To predict how an algorithm will scale with larger inputs.
+
+Why is Asymptotic Notation Used to Define Complexity?
+Asymptotic Notation is used to represent the complexity of an algorithm in a mathematical way, focusing on the growth rate of resource usage (time or space) as the input size grows large.
+
+Reasons for Using Asymptotic Notation:
+
+Simplifies Comparison:
+It allows us to focus on the dominant factors of growth and ignore constants or lower-order terms, making it easier to compare algorithms.
+
+Handles Large Input Sizes:
+Asymptotic notation describes the behavior of an algorithm as the input size becomes very large (approaches infinity), which is the most important scenario for scalability.
+
+Machine-Independent:
+It abstracts away hardware, compiler optimizations, and other system-specific details, providing a generalized view of an algorithm’s performance.
+
+Provides a Standardized Measure:
+It gives a standard way to classify algorithms into different performance categories like linear (O(n)), quadratic (O(n²)), logarithmic (O(log n)), etc.
